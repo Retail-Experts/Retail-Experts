@@ -1,0 +1,397 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-color-shopsavvy.com-alto: rgba(212, 212, 212, 1);
+  --dl-color-shopsavvy.com-nero: rgba(255, 255, 255, 1);
+  --dl-color-shopsavvy.com-black: rgba(0, 0, 0, 1);
+  --dl-color-shopsavvy.com-salem: rgba(22, 163, 74, 1);
+  --dl-color-shopsavvy.com-codgray: rgba(23, 23, 23, 1);
+  --dl-color-shopsavvy.com-mercury: rgba(229, 229, 229, 1);
+  --dl-color-shopsavvy.com-mischka: rgba(209, 213, 219, 1);
+  --dl-color-shopsavvy.com-palesky: rgba(107, 114, 128, 1);
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-shopsavvy.com-dovegray: rgba(115, 115, 115, 1);
+  --dl-color-shopsavvy.com-wildsand: rgba(245, 245, 245, 1);
+  --dl-color-shopsavvy.com-alabaster: rgba(250, 250, 250, 1);
+  --dl-color-shopsavvy.com-royalblue: rgba(79, 70, 229, 1);
+  --dl-color-shopsavvy.com-athensgray: rgba(229, 231, 235, 1);
+  --dl-color-shopsavvy.com-dodgerblue: rgba(59, 130, 246, 1);
+  --dl-color-shopsavvy.com-oxfordblue: rgba(55, 65, 81, 1);
+  --dl-color-shopsavvy.com-graychateau: rgba(156, 163, 175, 1);
+  --dl-color-shopsavvy.com-chateaugreen: rgba(78, 186, 105, 1);
+  --dl-color-shopsavvy.com-silverchalice: rgba(163, 163, 163, 1);
+  --dl-color-shopsavvy.com-cornflowerblue: rgba(99, 102, 241, 1);
+  --dl-color-shopsavvy.com-mountainmeadow: rgba(34, 197, 94, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-gray: rgba(128, 128, 128, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-nero: rgba(255, 255, 255, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-black: rgba(0, 0, 0, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-froly: rgba(241, 97, 121, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-linen: rgba(249, 236, 230, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-nero02: rgba(255, 255, 255, 0.0020000000949949026);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-pampas: rgba(249, 248, 247, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-silver: rgba(203, 201, 201, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-westar: rgba(229, 227, 223, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-boulder: rgba(117, 117, 117, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-cabaret: rgba(219, 79, 102, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-codgray: rgba(19, 19, 19, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-emperor: rgba(81, 79, 79, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-gallery: rgba(238, 238, 238, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-mercury: rgba(230, 230, 230, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-rosebud: rgba(248, 156, 171, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-skyblue: rgba(127, 215, 235, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-scorpion: rgba(91, 91, 91, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-wildsand: rgba(245, 245, 245, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-daisybush: rgba(105, 41, 165, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-mineshaft: rgba(45, 45, 45, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-royalblue: rgba(26, 115, 232, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-easternblue: rgba(16, 157, 189, 1);
+  --dl-color-023-20-0179-muhammadshafique.vercel.app-mediumpurple: rgba(146, 66, 221, 1);
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.shopsavvy\.comRobotoBold12 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoSemiBold14 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoRegular12 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoSemiBold14upper {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoRegular16 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoRegular15\.75 {
+  font-size: 15.75px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoRegular15\.5 {
+  font-size: 15.5px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoRegular161 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoMedium15\.88 {
+  font-size: 15.875px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoRegular14 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoExtraBold60 {
+  font-size: 60px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 800px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoRegular20 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoSemiBold14upper1 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoMedium16 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoMedium18 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoRegular27 {
+  font-size: 27px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoMedium17\.72 {
+  font-size: 17.71875px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoExtraBold30 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 800px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoRegular18 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoBold121 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoExtraBold29\.53 {
+  font-size: 29.53125px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 800px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoRegular181 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoMedium17\.86 {
+  font-size: 17.859375px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoExtraBold22\.88 {
+  font-size: 22.875px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 800px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoMedium14 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoRegular15\.88 {
+  font-size: 15.875px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoExtraBold24 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 800px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoRegular17\.86 {
+  font-size: 17.859375px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoRegular17\.72 {
+  font-size: 17.71875px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.shopsavvy\.comRobotoMedium15\.63 {
+  font-size: 15.625px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.023-20-0179Muhammadshafique\.vercel\.appPoppinsBold32upper {
+  font-size: 32px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.023-20-0179Muhammadshafique\.vercel\.appPoppinsMedium16 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.023-20-0179Muhammadshafique\.vercel\.appPoppinsRegular15 {
+  font-size: 15px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.023-20-0179Muhammadshafique\.vercel\.appRobotoMedium14 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.023-20-0179Muhammadshafique\.vercel\.appRobotoRegular12 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.023-20-0179Muhammadshafique\.vercel\.appPoppinsRegular16 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.023-20-0179Muhammadshafique\.vercel\.appPoppinsBold18upper {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 700px;
+  font-stretch: normal;
+}
